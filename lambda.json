@@ -1,5 +1,5 @@
 {
-  "theme": "default",
+  "theme": "aside",
   "domain": "http://localhost:3000",
   "title": "Khan Khulgun",
   "subTitle": "Khan Khulgun CMS based on echo & Lambda",

@@ -13,10 +13,10 @@ import (
 func main() {
 
 
-	app := khankhulgun.New("example", gridCaller.GetMODEL, caller.GetMODEL, validationCaller.GetMessages, validationCaller.GetRules)
+	app := khankhulgun.New("example", gridCaller.GetMODEL, caller.GetMODEL, validationCaller.GetMessages, validationCaller.GetRules, true)
 
 
-	dbToStruct.GetStruct("users")
+	dbToStruct.GetStruct("")
 
 	/*MIDDLEWARE*/
 	//App.Echo.Use(middleware.Recover())
