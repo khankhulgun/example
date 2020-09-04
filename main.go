@@ -13,7 +13,7 @@ import (
 func main() {
 
 
-	app := khankhulgun.New("geosystem", gridCaller.GetMODEL, caller.GetMODEL, validationCaller.GetMessages, validationCaller.GetRules)
+	app := khankhulgun.New("example", gridCaller.GetMODEL, caller.GetMODEL, validationCaller.GetMessages, validationCaller.GetRules)
 
 
 	dbToStruct.GetStruct("users")
