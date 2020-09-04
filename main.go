@@ -7,7 +7,7 @@ import (
 	gridCaller "example/models/grid/caller"
 	"github.com/khankhulgun/khankhulgun"
 	"github.com/khankhulgun/khankhulgun/dbToStruct"
-
+	"example/exampleService"
 )
 
 func main() {
@@ -15,6 +15,8 @@ func main() {
 
 	app := khankhulgun.New("example", gridCaller.GetMODEL, caller.GetMODEL, validationCaller.GetMessages, validationCaller.GetRules, true)
 
+
+	exampleService.Set(app.Echo)
 
 	dbToStruct.GetStruct("")
 
